@@ -2,8 +2,8 @@
 
 Projeto: Bolsa Futuro Digital - SOFTEX  
 Curso: Front End - React - Turma Monte Castelo  
-Professor: João Carlos Pinheiro 
-Aluno: Hicaro André Borges Sousa 
+Professor: João Carlos Pinheiro  
+Aluno: Hicaro André Borges Sousa  
 
 ---
 
@@ -21,8 +21,8 @@ Cada questão está organizada em uma pasta separada (`questao01`,
 ### 1. Clonar o repositório
 
 ``` bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+git clone https://github.com/Hicaro-Andre/Atv_HTML-CSS.git
+cd Atv_HTML-CSS
 ```
 
 ### 2. Instalar as dependências

@@ -5,65 +5,125 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfólio - Hicaro André</title>
 
-    <!-- Fonte Google -->
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap"
       rel="stylesheet"
     />
 
-    <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- Header -->
-    <header class="header">
-      <img src="assets/me.jpg" alt="Foto de Perfil" class="perfil-img" />
-      <h1 class="nome">Hicaro André</h1>
-      <h2 class="titulo">Desenvolvedor Full Stack</h2>
-      <p class="bio">
-        Sou um desenvolvedor web apaixonado por criar experiências digitais
-        modernas e intuitivas. Tenho experiência em front-end e back-end, sempre
-        buscando unir performance, design sofisticado e boas práticas. Acredito
-        que a tecnologia pode transformar ideias em soluções úteis, acessíveis e
-        escaláveis. Estou em constante evolução, estudando novas ferramentas e
-        aprimorando minhas habilidades.
-      </p>
-
-      <div class="redes-sociais">
-        <a href="https://github.com" target="_blank">GitHub</a>
-        <a href="https://linkedin.com" target="_blank">LinkedIn</a>
-        <a href="https://hicaro-portfolio.vercel.app/" target="_blank"
-          >Portfólio</a
-        >
-      </div>
-    </header>
-
-    <!-- Projetos -->
-    <main class="projetos">
-      <h3>🚀 Projetos em Destaque</h3>
-      <div class="grid-projetos">
-        <div class="card-projeto">
-          <h4>Site de E-commerce</h4>
-          <p>Plataforma completa com autenticação, carrinho e painel admin.</p>
+    <section class="hero" id="hero">
+      <header class="header">
+        <div class="logo">
+          <img src="assets/logo.png" alt="logo" />
         </div>
-        <div class="card-projeto">
-          <h4>Blog Pessoal</h4>
-          <p>Aplicação com painel CMS integrado e design responsivo.</p>
-        </div>
-        <div class="card-projeto">
-          <h4>Landing Page</h4>
-          <p>Layout moderno para captação de leads e portfólio.</p>
+        <nav class="nav">
+          <a href="#projetos">Projetos</a>
+          <a href="#contato">Contato</a>
+        </nav>
+      </header>
+
+      <div class="hero-content">
+        <img src="assets/me.jpg" alt="Foto de Perfil" class="perfil-img" />
+        <h1 class="nome">Hicaro André Borges Sousa</h1>
+        <h2 class="titulo">Desenvolvedor Full Stack</h2>
+        <p class="bio">
+          Crio experiências digitais modernas e intuitivas, com foco em
+          front-end e back-end, aplicando boas práticas de desenvolvimento.
+          Busco sempre unir design sofisticado à performance, garantindo
+          soluções rápidas e eficientes. Tenho experiência em construção de
+          aplicações escaláveis e de fácil manutenção. Adoro explorar novas
+          tecnologias e ferramentas para aprimorar meus projetos constantemente.
+          Meu objetivo é transformar ideias em produtos digitais funcionais,
+          elegantes e acessíveis para todos os usuários.
+        </p>
+        <div class="redes-sociais">
+          <a href="https://github.com" target="_blank">GitHub</a>
+          <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+          <a href="https://hicaro-portfolio.vercel.app/" target="_blank"
+            >Portfólio</a
+          >
         </div>
       </div>
-    </main>
+    </section>
 
-    <!-- Footer -->
+    <section id="projetos" class="projetos">
+      <div class="container">
+        <h2>🚀 Projetos em Destaque</h2>
+        <div class="grid-projetos">
+          <div class="card-projeto">
+            <img
+              src="https://static.vecteezy.com/ti/vetor-gratis/p1/2179047-website-landing-page-mockup-for-e-commerce-gratis-vetor.jpg"
+              alt="Site de E-commerce"
+            />
+            <div class="info-card">
+              <h4>Site de E-commerce</h4>
+              <p>
+                Plataforma completa com autenticação, carrinho e painel admin.
+              </p>
+            </div>
+          </div>
+          <div class="card-projeto">
+            <img
+              src="https://static.wixstatic.com/media/16f059_335c8979be464890abb228be46b586e0~mv2.png/v1/fill/w_980,h_561,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/16f059_335c8979be464890abb228be46b586e0~mv2.png"
+              alt="Blog Pessoal"
+            />
+            <div class="info-card">
+              <h4>Blog Pessoal</h4>
+              <p>Aplicação com painel CMS integrado e design responsivo.</p>
+            </div>
+          </div>
+          <div class="card-projeto">
+            <img
+              src="https://cdn.prod.website-files.com/65bb7884c67879aa0d84f24e/65c0eb721ea864f342f436f8_What-are-landing-pages-and-why-do-you-need-to-use-them.jpeg"
+              alt="Landing Page"
+            />
+            <div class="info-card">
+              <h4>Landing Page</h4>
+              <p>Layout moderno para captação de leads e portfólio.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="contato">
+      <div class="container">
+        <h2>Contato</h2>
+        <p>
+          Quer entrar em contato? Me envie uma mensagem nas minhas redes sociais
+          ou email!
+        </p>
+        <div class="redes-sociais">
+          <a href="https://github.com" target="_blank">GitHub</a>
+          <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+          <a href="mailto:seuemail@exemplo.com">Email</a>
+        </div>
+      </div>
+    </section>
+
     <footer class="footer">
-      <p>© 2025 Hicaro André • Todos os direitos reservados</p>
-      <div class="footer-links">
-        <a href="#">Contato</a>
-        <a href="#">Política de Privacidade</a>
+      <div class="footer-container">
+        <div class="footer-links-redes">
+          <a href="#contato">Contato</a>
+          <a href="#">Política de Privacidade</a>
+          <a href="https://github.com" target="_blank">GitHub</a>
+          <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+        </div>
+        <p>© 2025 Hicaro André</p>
       </div>
     </footer>
+
+    <script>
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+          });
+        });
+      });
+    </script>
   </body>
 </html>
