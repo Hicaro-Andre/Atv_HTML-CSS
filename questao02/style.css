@@ -19,11 +19,15 @@ body {
 .header {
   background: linear-gradient(135deg, #6b4226, #d4af37);
   text-align: center;
-  padding: 70px 0;
+  padding: 30px 0;
   box-shadow: 0 6px 20px rgba(0,0,0,0.35);
   position: relative;
   z-index: 10;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+
 }
+
 
 .logo {
   font-family: 'Playfair Display', serif;
